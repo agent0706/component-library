@@ -12,7 +12,7 @@ const Template = (args: unknown): JSX.Element => <Button {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {
   label: 'Click me',
-  backgroundColor: 'blue'
+  backgroundColor: '#35f3a7'
 };
 
 
